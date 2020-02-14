@@ -1,0 +1,45 @@
+{
+  "port": "PORT",
+  "env": "NODE_ENV",
+  "maildev": {
+    "client": "MAILDEV_CLIENT",
+    "server": "MAILDEV_SERVER"
+  },
+  "database": {
+    "url": "PG_URL",
+    "override": {
+      "database": "PG_DATABASE",
+      "username": "PG_USERNAME",
+      "password": "PG_PASSWORD",
+      "host": "PG_HOST",
+      "port": "PG_PORT"
+    },
+    "options": {
+      "pool": {
+        "min": "PG_MIN_CONNECTIONS",
+        "max": "PG_MAX_CONNECTIONS"
+      }
+    }
+  },
+  "keys": {
+    "etudio": {
+      "hashidSalt": "HASHID_SALT"
+    }
+  },
+  "log": {
+    "level": "LOG_LEVEL",
+    "accessLogs": "ACCESS_LOGS",
+    "slowRequest": "SLOW_REQUEST",
+    "slowRequestThreshold": "SLOW_REQUEST_THRESHOLD"
+  },
+  "mailgun": {
+    "user": "MAILGUN_USER",
+    "password": "MAILGUN_PASSWORD",
+    "apiKey": "MAILGUN_API_KEY"
+  },
+  "host": {
+    "api": "API_URL",
+    "images": "IMAGES_URL",
+    "frontend": "FRONTEND_URL"
+  }
+}

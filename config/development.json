@@ -1,0 +1,9 @@
+{
+  "maildev": {
+    "client": true,
+    "server": true
+  },
+  "log": {
+    "slowRequest": true
+  }
+}

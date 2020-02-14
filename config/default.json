@@ -1,0 +1,42 @@
+{
+  "port": "3060",
+  "maildev": {
+    "client": false,
+    "server": false
+  },
+  "database": {
+    "url": "postgres://etudio@127.0.0.1:5432/etudio_dvl",
+    "options": {
+      "pool": {
+        "min": 5,
+        "max": 10,
+        "acquire": 1200000
+      },
+      "logging": false
+    }
+  },
+  "maintenancedb": {
+    "url": "postgres://127.0.0.1:5432/postgres"
+  },
+  "keys": {
+    "etudio": {
+      "hashidSalt": "4O6Z39l+hf6wOanLUrJPl520c6Qecn8SZLWQX/4/OwE="
+    }
+  },
+  "host": {
+    "api": "http://localhost:3060",
+    "website": "http://localhost:3000"
+  },
+  "email": {
+    "from": "Etudio <info@etudio.eu>"
+  },
+  "cache": {
+    "middleware": false
+  },
+  "log": {
+    "level": "info",
+    "accessLogs": false,
+    "slowRequest": false,
+    "slowRequestTreshold": 1000
+  }
+}
