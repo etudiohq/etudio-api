@@ -31,7 +31,7 @@
     "helmet": "^3.21.2",
     "html-pdf": "^2.2.0",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "morgan": "^1.9.1",
     "passport": "^0.4.1",
